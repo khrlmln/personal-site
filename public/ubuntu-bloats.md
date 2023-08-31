@@ -1,0 +1,5 @@
+# Ubuntu bloatwares which can be removed for clean ubuntu experience
+
+```bash
+sudo apt remove --purge apport apport-gtk apport-symptoms eog evince evince-common file-roller gir1.2-snapd-2 gnome-characters gnome-disk-utility gnome-font-viewer gnome-initial-setup gnome-logs gnome-online-accounts gnome-power-manager gnome-remote-desktop gnome-shell-extension-appindicator gnome-shell-extension-desktop-icons-ng gnome-shell-extension-ubuntu-dock gnome-startup-applications gnome-system-monitor gnome-terminal gnome-terminal-data gnome-user-docs info memtest86+ mobile-broadband-provider-info nautilus-extension-gnome-terminal network-manager-gnome seahorse software-properties-common software-properties-gtk systemd-oomd ubuntu-advantage-desktop-daemon ubuntu-advantage-tools ubuntu-docs ubuntu-drivers-common ubuntu-release-upgrader-core ubuntu-release-upgrader-gtk ubuntu-report vim-common vim-tiny yelp yelp-xsl
+```
