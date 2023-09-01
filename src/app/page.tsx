@@ -30,9 +30,9 @@ export default function Example() {
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Website Coming Soon
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          {/* <p className="mt-6 text-lg leading-8 text-gray-300">
             Something Big is Coming Soon.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
