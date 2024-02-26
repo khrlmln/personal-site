@@ -1,4 +1,19 @@
-export default function Example() {
+"use client";
+import { TypewriterEffectSmooth } from "./components/ui/typewriter-effect";
+
+export default function App() {
+  const words = [
+    {
+      text: "Website",
+    },
+    {
+      text: "Coming",
+    },
+    {
+      text: "Soon.",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+  ];
   return (
     <div className="relative isolate overflow-hidden w-screen h-screen bg-gray-900 py-24 sm:py-32">
       <div
@@ -28,7 +43,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl h-4/5 px-6 lg:px-8 flex justify-center items-center">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Website Coming Soon
+            <TypewriterEffectSmooth words={words} />
           </h2>
           {/* <p className="mt-6 text-lg leading-8 text-gray-300">
             Something Big is Coming Soon.
